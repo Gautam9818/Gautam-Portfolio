@@ -60,6 +60,8 @@ h1 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    align-content: center;
+    align-items: center;
     background: white;
     color: black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -148,7 +150,9 @@ margin-top: 100px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     animation: roll 3s linear infinite, move-left 5s linear infinite;
 }
-
+.logo{position: relative;
+        top: 5px;
+    right: 5px;}
 
 /* Rolling Animation */
 @keyframes roll {
@@ -161,7 +165,7 @@ margin-top: 100px;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     body {
         text-align: center;
     }
@@ -169,17 +173,21 @@ margin-top: 100px;
     h1 {
         font-size: 2rem;
         margin-bottom: 15px;
+        
     }
 
     .buttons {
         flex-direction: column;
+
         align-items: center;
-        margin-right: 200px;
+        margin-right: 400px;
+        width: 90%;
     }
 
     .buttons button {
         width: 90%; /* Full width on mobile */
         font-size: 0.9rem;
+        
     }
 
     .info-box {
@@ -188,7 +196,10 @@ margin-top: 100px;
     
 
     .video-background{height: 900px;}
-    .wheel{visibility: hidden;}
+    .wheel{visibility: hidden;
+        width: 0px;
+        height: 0px;
+    }
 }
 
 /* Large Screens */
