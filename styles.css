@@ -178,6 +178,8 @@ background-image: url(wallpapersden.com_76492-1920x1080.jpg);}
     h1 {
         font-size: 2rem;
         margin-bottom: 15px;
+        margin-left: 100px;
+        width: 300px;
         
     }
 
@@ -204,6 +206,12 @@ background-image: url(wallpapersden.com_76492-1920x1080.jpg);}
     .wheel{visibility: hidden;
         width: 0px;
         height: 0px;
+    }
+    .end{
+        width: 500px;
+        height: 200px;
+        padding-top: 50px;
+        font-size: x-large;
     }
 }
 
