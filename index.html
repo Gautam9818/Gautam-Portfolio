@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gautam's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="1737574833647.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            
+        </video>
+    </div>
+
+ 
+
+    <div class="container">
+        <h1>Welcome to Gautam's Portfolio</h1>
+        <div class="wheel"></div>
+        
+        <div class="buttons">
+            <button onclick="showInfo('Objective')">Objective</button>
+            <button onclick="showInfo('skills')">Skills</button>
+            <button onclick="showInfo('education')">Education</button>
+            
+            
+            <button onclick="showInfo('Strengths')">Strengths</button>
+            <button onclick="showInfo('contact')">Contact</button>
+
+        </div>
+        <div class="info-box" id="info-box">
+            <button class="close-btn" onclick="hideInfo()">X</button>
+            <div id="info-content"></div>
+        </div>
+        
+            
+        
+    </div>
+<!-- <div class="bottomout">
+    <div class="bottom">0</div>
+</div> -->
+    <script src="script.js"></script>
+</body>
+</html>
