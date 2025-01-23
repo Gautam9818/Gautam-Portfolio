@@ -20,7 +20,7 @@
 }
 body {
     margin: 0;
-     box-sizing: border-box;
+    box-sizing: border-box;
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
@@ -161,6 +161,51 @@ margin-top: 100px;
 }
 
 
-/* Moving Left Animation */
+@media (max-width: 768px) {
+    body {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 200px;
+    }
+
+    .buttons button {
+        width: 90%; /* Full width on mobile */
+        font-size: 0.9rem;
+    }
+
+    .info-box {
+        width: 95%; /* Fullscreen on mobile */
+    }
+    
+
+    .video-background{height: 900px;}
+    .wheel{visibility: hidden;}
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .buttons button {
+        padding: 15px 30px;
+        font-size: 1.2rem;
+    }
+
+    .wheel {
+        width: 100px;
+        height: 100px;
+    }
+}
 
 
