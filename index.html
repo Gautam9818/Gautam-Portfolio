@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gautam's Portfolio</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,21 +20,26 @@
 
     <div class="container">
         <h1>Welcome to Gautam's Portfolio</h1>
+        
         <div class="wheel"></div>
+       
+    
         
         <div class="buttons">
-            <button onclick="showInfo('Objective')">Objective</button>
-            <button onclick="showInfo('skills')">Skills</button>
-            <button onclick="showInfo('education')">Education</button>
+            <button onclick="showInfo('Objective')"><box-icon name='graphql' type='logo'  class="logo"></box-icon>Objective</button>
+            <button onclick="showInfo('skills')"><box-icon name='bulb'  class="logo"></box-icon>Skills</button>
+            <button onclick="showInfo('education')"><box-icon name='brain' class="logo"></box-icon>Education</button>
             
             
-            <button onclick="showInfo('Strengths')">Strengths</button>
-            <button onclick="showInfo('contact')">Contact</button>
+            <button onclick="showInfo('Strengths')"><box-icon name='dumbbell'  class="logo"></box-icon>Strengths</button>
+            <button onclick="showInfo('contact')"><box-icon name='phone-call' class="logo"></box-icon>Contact</button>
 
         </div>
         <div class="info-box" id="info-box">
             <button class="close-btn" onclick="hideInfo()">X</button>
-            <div id="info-content"></div>
+            <div id="info-content">
+
+            </div>
         </div>
         
             
