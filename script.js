@@ -11,6 +11,7 @@ function showInfo(type) {
                 <h2>Contact Information</h2>
                 <p>Phone: 9818983136</p>
                 <p>Email: rangergoku1@gmail.com</p>
+                <p>Gautam9818</p>
             `;
             break;
         case 'education':
@@ -47,8 +48,6 @@ function showInfo(type) {
                 <h2>Strengths</h2>
                 <p>Adaptable to any environment</p>
                 <p>Quick learner with the ability to master new tasks efficiently</p>
-                <p>Efficiently manage and prioritize multiple tasks with precision</p>
-                <p>excelling at solving complex challenges</p>
             `;
             break;
     }
